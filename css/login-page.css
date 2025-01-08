@@ -42,6 +42,7 @@ body {
 
 .welcome-menu {
 
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,12 +73,13 @@ body {
 
 #input-field {
 
-    height: 40px;
-    width: 380px;
+    height: 45px;
+    width: 350px;
     border-radius: 20px;
     box-shadow: 5px rgb(76, 105, 112);
     border: none;
     padding-left: 20px;
+    padding-right: 20px;
     font-size: 16px;
 }
 
@@ -90,9 +92,12 @@ label[for="checkbox"] {
 .password-options {
 
     margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 
 }
 
@@ -121,6 +126,8 @@ label[for="checkbox"] {
     width: 300px;
     border-radius: 20px;
     border: none;
+    font-size: 15px;
+    font-weight: 600;
 
 }
 
