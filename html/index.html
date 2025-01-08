@@ -10,56 +10,52 @@
 
 <body>
 
-    <div class="login-header">
+    <div class="app-header">
         <div class="app-title">
-            <h1 class="app-title">Sphere</h1>
+            <h1 class="h1-app-title">Sphere</h1>
         </div>
         <div class="create-account">
-            <a href="/html/create-account.html">Create an account</a>
+            <a class="create-account-link" href="create-account.html">Create an account</a>
         </div>
     </div>
+
+
     <div class="container">
-        <div class="parent-grid">
-            <div class="welcome-menu">
-                <h1 class="welcome">Welcome back</h1>
-                <p class="welcome-greetings">Enter your untitled account details</p>
 
-                <div class="login-option-button">
-                    <div class="google-login">
-                        <button class="google-login-button">Log in with Google</button>
+        <div class="welcome-menu">
+            <p class="welcome-text">Welcome back</p>
+            <p class="welcome-greetings">Enter your untitled account details</p>
+            <div class="or">
+                <hr>
+            </div>
+            <div class="user-form">
+                <form action="#">
+                    <div class="username">
+                        <input type="text" placeholder="Email or username" id="input-field" required>
                     </div>
-                    <div class="github-login">
-                        <button class="github-login">Log in with Github</button>
-                    </div>
-                </div>
-
-                <div class="or">
-                    <hr>
-                </div>
-                <div class="user-form">
-                    <form action="#">
-                        <div class="username">
-                            <input type="text" placeholder="Email or username" required>
-                        </div>
-                        <div class="password">
-                            <input type="text" placeholder="Password" required>
-                            <div class="password-options">
-                                <input type="checkbox" id="remember">
-                                <p class="checkbox">Keep me signed in</p>
-                                <a href="/html/forgot-password.html">Forgot Password</a>
+                    <div class="password">
+                        <input type="text" placeholder="Password" id="input-field" required>
+                        <div class="password-options">
+                            <div class="separator-checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox">Keep me signed in</label>
+                            </div>
+                            <div class="separator-forgot-password">
+                                <a class="forgot-password-text" href="forgot-password.html">Forgot Password?</a>
                             </div>
                         </div>
-                        <div class="sign-in-options">
-                            <button class="sign-in">Sign In</button>
-                    </form>
-                </div>
-                <div class="help-section">
-                    <a class="troubleshoot" href="/html/help-section.html">Trouble Signing In</a>
+                    </div>
+                </form>
+                <div class="sign-in-options">
+                    <button class="sign-in-button">Sign In</button>
                 </div>
             </div>
         </div>
+        <div class="help-section">
+            <a class="troubleshoot" href="help-section.html">Trouble Signing In</a>
+        </div>
     </div>
-    </div>
+
 </body>
 
 </html>
