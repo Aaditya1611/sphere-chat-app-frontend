@@ -17,9 +17,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.h1-app-title {
+
+    font-size: 40px;
 }
 
 .create-account-link {
@@ -33,7 +37,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height: 50vh;
+    min-height: 85vh;
     width: 100%;
     justify-content: center;
     align-items: center;
