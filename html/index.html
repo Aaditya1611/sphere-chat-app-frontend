@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/login-page.css">
+    <link rel="stylesheet" href="/css/index-page.css">
     <title>Sphere</title>
 </head>
 
@@ -14,20 +14,20 @@
             <h1 class="h1-app-title">Sphere</h1>
         </div>
         <div class="create-account">
-            <a class="create-account-link" href="create-account.html">Create an account</a>
+            <a class="create-account-link" href="sign-up-page.html" >Create an account</a>
         </div>
     </div>
     <div class="container">
         <div class="welcome-menu">
             <p class="welcome-text">Welcome back</p>
-            <p class="welcome-greetings">Enter your untitled account details</p>
+            <p class="welcome-greetings">Enter your account details</p>
             <div class="or">
                 <hr>
             </div>
             <div class="user-form">
                 <form action="#">
                     <div class="username">
-                        <input type="text" placeholder="Email or username" id="input-field" required>
+                        <input type="text" placeholder="Enter your Email id" id="input-field" required>
                     </div>
                     <div class="password">
                         <input type="password" placeholder="Password" id="input-field" required>
@@ -43,7 +43,7 @@
                     </div>
                 </form>
                 <div class="sign-in-options">
-                    <button class="sign-in-button">Sign In</button>
+                    <button class="sign-in-button" onclick=" ">Sign In</button>
                 </div>
             </div>
         </div>
@@ -52,5 +52,9 @@
         </div>
     </div>
 </body>
-
+<script>
+    function redirectToSignUp() {
+        window.location.href = "sign-up-page.html";
+    }
+</script>
 </html>
