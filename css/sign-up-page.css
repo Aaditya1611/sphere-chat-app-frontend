@@ -91,6 +91,12 @@ h1 a {
 
 }
 
+input[type="submit"]{
+
+    color: white;
+    font-weight: 600;
+}
+
 .create-account {
 
     display: flex;
